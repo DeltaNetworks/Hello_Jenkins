@@ -14,7 +14,7 @@ namespace Hello_Jenkins
             Console.WriteLine("*****************************");
             Console.WriteLine("***      Hello Jenkins    ***");
             Console.WriteLine("*****************************");
-            Thread.Sleep(4000);
+            Thread.Sleep(3000);
         }
     }
 }
