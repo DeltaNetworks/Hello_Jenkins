@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Hello_Jenkins
@@ -10,6 +11,10 @@ namespace Hello_Jenkins
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("*****************************");
+            Console.WriteLine("***      Hello Jenkins    ***");
+            Console.WriteLine("*****************************");
+            Thread.Sleep(4000);
         }
     }
 }
